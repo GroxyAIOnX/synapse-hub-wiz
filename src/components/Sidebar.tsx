@@ -5,7 +5,9 @@ import { useState } from "react";
 
 const menuItems = [
   { title: "Dashboard", url: "/", icon: Home },
-  { title: "Notes", url: "/notes", icon: FileText },
+  { title: "Journal", url: "/journal", icon: FileText },
+  { title: "Secrets", url: "/secrets", icon: FileText },
+  { title: "Code Editor", url: "/code", icon: FileText },
   { title: "AI Chat", url: "/chat", icon: MessageSquare },
   { title: "Account", url: "/account", icon: User },
 ];
